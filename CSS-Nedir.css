@@ -1,0 +1,17 @@
+TYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+//bu dosya içi cs kodudur
+<style>
+.h1{
+  text-align: center; //Bu koda h1 yazıyı ortalar
+}
+</style>
+<body>
+    <h1>Bu En Kalın Başlık</h1>
+</body>
+</html>
