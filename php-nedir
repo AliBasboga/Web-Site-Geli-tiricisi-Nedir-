@@ -1,0 +1,51 @@
+//backend örneği
+<?php
+// İsim gönderilip gönderilmediğini kontrol eder
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['name'])) {
+    $name = htmlspecialchars($_POST['name']); // Kullanıcının gönderdiği ismi alır ve XSS saldırılarına karşı güvenli hale getirir
+    echo "Merhaba, " . $name . "!"; // Selamlamayı gösterir
+} else {
+    echo "Lütfen adınızı girin.";
+}
+?>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Form Örneği</title>
+</head>
+<body>
+    <h1>PHP ile Selamlama</h1>
+    <form action="index.php" method="post">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
+
+PHP Scripti: //Açıkalama
+
+<?php ... ?>: PHP kod bloklarını tanımlar.
+$_SERVER["REQUEST_METHOD"] == "POST": İsteğin POST yöntemiyle yapılıp yapılmadığını kontrol eder.
+isset($_POST['name']): name alanının formdan gönderilip gönderilmediğini kontrol eder.
+htmlspecialchars(): Kullanıcıdan gelen girdiği XSS saldırılarına karşı korur.
+echo "Merhaba, " . $name . "!";: Kullanıcının adını içeren bir selamlama mesajı gösterir.
+HTML Formu:
+
+<form action="index.php" method="post">: Formun gönderileceği PHP scriptini ve gönderim yöntemini tanımlar.
+<input type="text" id="name" name="name" required>: Kullanıcının ismini girmesi için bir metin girişi alanı sağlar. required özelliği, bu alanın doldurulmasını zorunlu kılar.
+<button type="submit">Gönder</button>: Formu göndermek için kullanılan buton.
+Uygulamanın Çalıştırılması
+PHP Server Kurulumu:
+
+PHP dosyanızı bir web sunucusunda çalıştırmalısınız. Lokal geliştirme için XAMPP, WAMP veya MAMP gibi araçlar kullanabilirsiniz.
+Dosyaların Yerleştirilmesi:
+
+index.php ve form.html dosyalarını sunucunuzun kök dizinine (örneğin, htdocs veya www) yerleştirin.
+Tarayıcıdan Erişim:
+
+Tarayıcınızdan http://localhost/form.html adresine giderek formu açabilirsiniz.
+Formu doldurup gönder butonuna bastığınızda, PHP scripti index.php çalışacak ve girilen isme göre bir selamlama mesajı döndürecektir.
+Bu basit PHP uygulaması, temel bir form işleme mekanizmasını gösterir. Daha karmaşık uygulamalar için, PHP ile veri tabanı bağlantıları, kullanıcı oturumları ve daha gelişmiş işlevler ekleyebilirsiniz.
