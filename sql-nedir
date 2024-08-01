@@ -1,0 +1,99 @@
+**backend tarafı**
+SQL (Structured Query Language), ilişkisel veri tabanlarında veri yönetimi ve manipülasyonu için kullanılan standart bir programlama dilidir. SQL, veri tabanlarında veri eklemek, sorgulamak, güncellemek, silmek ve yönetmek için kullanılan bir dizi komut ve fonksiyondan oluşur. İşte SQL'in ne olduğuna dair daha detaylı bir açıklama:
+
+1. SQL'in Temel Fonksiyonları
+SQL, veri tabanlarıyla etkileşim kurmak için kullanılan birkaç temel işlevi içerir:
+
+Veri Tanımlama Dili (Data Definition Language - DDL):
+
+CREATE: Veri tabanı ve tablo oluşturma.
+ALTER: Var olan tablo yapısını değiştirme.
+DROP: Veri tabanı veya tabloyu silme.
+Veri İşleme Dili (Data Manipulation Language - DML):
+
+SELECT: Verileri sorgulama ve alma.
+INSERT: Yeni veri ekleme.
+UPDATE: Mevcut veriyi güncelleme.
+DELETE: Verileri silme.
+Veri Kontrol Dili (Data Control Language - DCL):
+
+GRANT: Kullanıcılara veri tabanı erişimi veya izinler verme.
+REVOKE: Kullanıcılardan veri tabanı erişimi veya izinler geri alma.
+Veri Kontrol Dili (Transaction Control Language - TCL):
+
+COMMIT: Veritabanındaki geçici işlemleri kalıcı hale getirme.
+ROLLBACK: Yapılan işlemleri geri alma.
+SAVEPOINT: Bir işlemi geçici olarak kaydetme ve bu noktaya geri dönebilme.
+2. SQL'in Yapısı
+SQL, doğal dile benzer bir yapıya sahiptir ve genellikle aşağıdaki yapıda komutlar içerir:
+
+sql
+Kodu kopyala
+SELECT sütun1, sütun2, ...
+FROM tablo_adı
+WHERE koşul
+ORDER BY sütun ASC|DESC;
+Bu örnek, belirli bir tablodan belirli koşullara göre veri sorgulamak için kullanılan tipik bir SQL sorgusunu gösterir.
+
+3. SQL Veri Türleri
+SQL, farklı veri türlerini destekler. İşte bazı yaygın SQL veri türleri:
+
+CHAR ve VARCHAR: Karakter dizileri için kullanılır.
+INT: Tam sayılar için kullanılır.
+FLOAT ve DOUBLE: Ondalık sayılar için kullanılır.
+DATE: Tarih değerleri için kullanılır.
+BOOLEAN: Doğru/yanlış değerleri için kullanılır.
+4. SQL İlişkisel Veri Tabanları
+SQL, ilişkisel veri tabanı yönetim sistemleri (RDBMS) ile birlikte çalışır. İlişkisel veri tabanları, verileri tablolar şeklinde organize eder ve bu tablolar arasında ilişkiler kurar. Yaygın SQL tabanlı ilişkisel veri tabanı sistemleri şunlardır:
+
+MySQL: Açık kaynaklı bir ilişkisel veri tabanı yönetim sistemi.
+PostgreSQL: Gelişmiş özelliklere sahip açık kaynaklı bir RDBMS.
+SQLite: Hafif, sunucusuz bir veri tabanı yönetim sistemi.
+Microsoft SQL Server: Microsoft tarafından geliştirilen ticari bir veri tabanı yönetim sistemi.
+Oracle Database: Büyük ölçekli veri tabanları için kullanılan güçlü bir ticari sistem.
+5. SQL Sorgu Örnekleri
+Veri Sorgulama:
+
+sql
+Kodu kopyala
+SELECT first_name, last_name
+FROM employees
+WHERE department = 'IT'
+ORDER BY last_name ASC;
+Bu sorgu, employees tablosundaki IT departmanında çalışan kişilerin isimlerini alfabetik sırayla alır.
+
+Veri Ekleme:
+
+sql
+Kodu kopyala
+INSERT INTO employees (first_name, last_name, department)
+VALUES ('Ali', 'Veli', 'Sales');
+Bu komut, employees tablosuna yeni bir çalışan kaydı ekler.
+
+Veri Güncelleme:
+
+sql
+Kodu kopyala
+UPDATE employees
+SET department = 'Marketing'
+WHERE last_name = 'Veli';
+Bu sorgu, Veli soyadlı çalışanın departmanını Marketing olarak günceller.
+
+Veri Silme:
+
+sql
+Kodu kopyala
+DELETE FROM employees
+WHERE first_name = 'Ali';
+Bu komut, Ali isimli çalışanı employees tablosundan siler.
+
+6. SQL'in Güçlü Yönleri
+Taşınabilirlik: Çoğu veri tabanı sistemi SQL’i destekler, bu da SQL sorgularının farklı sistemlerde kullanılabilmesini sağlar.
+Verimlilik: Büyük miktarda veri üzerinde hızlı ve etkili sorgulama yapabilme.
+Kapsamlı Fonksiyonellik: Veri manipülasyonu, veri analizi ve veri tanımlama için geniş bir işlev yelpazesi sunar.
+7. SQL ve İleri Seviye Konular
+JOIN Operasyonları: Farklı tablolardaki verileri birleştirerek ilişkili bilgileri tek bir sorguda toplama.
+Alt Sorgular: İç içe sorgular kullanarak daha karmaşık veri analizi yapabilme.
+Veri Normalizasyonu: Veri tabanı tasarımını optimize ederek veri tekrarını minimize etme.
+SQL, veri tabanı yönetimi için vazgeçilmez bir araçtır ve günümüzde birçok işletmenin veri altyapısının temelini oluşturur. SQL dilini öğrenmek, veri tabanları ile etkili bir şekilde çalışmayı sağlar ve modern yazılım geliştirme süreçlerinde önemli bir beceri olarak kabul edilir.
+
