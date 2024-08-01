@@ -1,0 +1,44 @@
+   Web Site Geliştircisi Nedir?
+Bir web sitesi geliştiricisi, web siteleri ve web tabanlı uygulamalar oluşturmak, geliştirmek ve sürdürmekle sorumlu olan bir profesyoneldir. Web geliştiricileri, bir web sitesinin görsel tasarımından, kullanıcı arayüzünden ve kullanıcı deneyiminden sorumlu olabilir. Ayrıca, arka planda çalışan sunucu tarafı işlevselliği ve veri tabanı yönetimi de dahil olmak üzere birçok teknik konuda da çalışabilirler. İşte web sitesi geliştiricisinin detaylı olarak ne yaptığına dair bir açıklama:
+
+               1. Web Geliştirme Alanları
+a. Frontend Geliştirici (Önyüz Geliştirici):
+
+HTML, CSS ve JavaScript: Frontend geliştiricileri, web sitelerinin kullanıcı tarafından görülen kısmını tasarlamak için bu üç ana teknolojiyi kullanırlar.
+
+Kullanıcı Arayüzü (UI) ve Kullanıcı Deneyimi (UX): Kullanıcıların web sitesiyle etkileşimini optimize etmek için çalışırlar. Bu, web sitesinin görsel çekiciliğini ve kullanılabilirliğini artırmayı içerir.
+Responsive Tasarım: Web sitesinin farklı cihaz ve ekran boyutlarına uygun şekilde çalışmasını sağlarlar.
+
+Frontend Çatılar: React, Angular, Vue.js gibi çatıları kullanarak dinamik ve etkileşimli kullanıcı arayüzleri oluştururlar.
+-------------------------------------------------------------------------
+b. Backend Geliştirici (Arkayüz Geliştirici):
+Sunucu Tarafı Dilleri: PHP, Python, Ruby, Java, C#, Node.js gibi diller kullanarak sunucu tarafı işlevselliği geliştirirler.
+Veritabanı Yönetimi: MySQL, PostgreSQL, MongoDB gibi veritabanı sistemleriyle çalışarak verilerin depolanmasını ve yönetilmesini sağlarlar.
+API Geliştirme: Diğer uygulamalarla etkileşim sağlamak için API'ler oluştururlar.
+Sunucu Yönetimi: Sunucuların yapılandırılması ve bakımı ile ilgilenirler.
+-------------------------------------------------------------------------     
+                 c. Full-Stack Geliştirici:
+
+Hem frontend hem de backend geliştirme yeteneklerine sahip olup, bir projeyi baştan sona yönetebilirler.
+-------------------------------------------------------------------------
+                   2. Web Geliştirici Becerileri
+
+Problem Çözme Yeteneği: Web geliştiricileri, teknik sorunları çözme konusunda becerikli olmalıdır.
+Yaratıcılık ve Tasarım Yeteneği: Özellikle frontend geliştiriciler için önemlidir.
+Detaylara Dikkat: Küçük hataların büyük sorunlara yol açabileceği için dikkatli çalışma gerektirir.
+Takım Çalışması: Projeler genellikle ekip halinde geliştirilir, bu nedenle iyi iletişim ve işbirliği becerileri önemlidir.
+Güncel Kalma: Teknoloji hızla değiştiği için yeni araçları, dilleri ve teknikleri öğrenme konusunda istekli olmalıdırlar.  
+-------------------------------------------------------------------------------------------
+                3. Web Geliştirme Süreci
+Planlama ve Analiz: Projenin gereksinimleri ve hedefleri belirlenir.
+Tasarım: Kullanıcı arayüzü ve deneyimi tasarlanır.
+Geliştirme: Kodlama süreci başlar, frontend ve backend geliştirilir.
+Test: Web sitesi hatalara karşı test edilir ve kullanıcı deneyimi değerlendirilir.
+Yayınlama ve Bakım: Web sitesi yayınlandıktan sonra, performansın izlenmesi ve gerektiğinde güncellemeler yapılması gerekir
+------------------------------------------------------------------------------------------- 
+                 4. Web Geliştirici Araçları
+Kod Editörleri ve IDE'ler: Visual Studio Code, Sublime Text, IntelliJ IDEA gibi araçlar kod yazmayı kolaylaştırır.
+Versiyon Kontrol Sistemleri: Git ve GitHub gibi araçlar, kod değişikliklerini takip etmeye ve ekip içinde işbirliği yapmaya yardımcı olur.
+Web Geliştirme Çatılar ve Kütüphaneler: Bootstrap, jQuery, Express.js gibi araçlar geliştirme sürecini hızlandırır.
+Test Araçları: Jest, Mocha gibi araçlar kodun düzgün çalıştığını doğrulamak için kullanılır.
+Web sitesi geliştiricileri, işletmelerin çevrimiçi varlıklarını güçlendirmek ve kullanıcıların web deneyimlerini optimize etmek için hayati bir rol oynarlar. Hem teknik hem de yaratıcı becerilere sahip olmaları, onları dijital dünyanın önemli oyuncuları haline getirir.
